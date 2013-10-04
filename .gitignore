@@ -2,3 +2,4 @@
 rails
 tmp
 chef/cookbooks
+LocalSupport/*

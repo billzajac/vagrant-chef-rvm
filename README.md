@@ -8,7 +8,7 @@ The current setup provides:
 * Git
 * Databases (SQLite, MySQL, PostgreSQL)
 * RVM
-* Ruby (version in file 1.9.2, can be changed to any version you wish)
+* Ruby (version in file 2.0.0, can be changed to any version you wish)
 * Memcached
 
 Getting Started

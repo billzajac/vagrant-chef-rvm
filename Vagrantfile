@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
   config.vm.box_url   = 'http://files.vagrantup.com/precise32.box'
   config.vm.host_name = 'chef-rails-dev-box'
 
-  config.vm.network :hostonly, "192.168.30.00"
+  config.vm.network :hostonly, "192.168.56.00"
   config.vm.share_folder("vagrant-root", "/vagrant", "./LocalSupport", "nfs" => true)
   config.vm.forward_port 3000, 3000
 
@@ -28,7 +28,7 @@ Vagrant::Config.run do |config|
           }
         },
         "rvm" => {
-          "rubies"  => ["1.9.2"],
+          "rubies"  => ["2.0.0"],
           "global_gems" => [
               { 'name' => 'bundler' },
               { 'name' => 'rails'}
